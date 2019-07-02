@@ -17,7 +17,7 @@ export default class Home extends Component {
           <TheaderWrap>
             <i className="iconfont icon-weizhi"></i>
             <RheaderWrap>
-              福中三路深圳市民
+              福中三路深圳市
             </RheaderWrap>
           </TheaderWrap>
           <BheaderWrap>
