@@ -1,3 +1,5 @@
 body{
- position: absolute
+ position: absolute;
+ justify-content: space-around;
+ 
 }

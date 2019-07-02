@@ -50,3 +50,91 @@ export const MyFdaJing = styled.div`
  font-size: 2px;
  color: #ccc;
 `
+export const HomeFooterWrap = styled.div`
+ display: flex;
+ flex: 1;
+ justify-content: space-around;
+ position: fixed;
+ bottom: 0;
+ height: 50px;
+ width: 100%;
+ border-top: 1px solid #ccc;
+`
+export const LeftFooterWrap = styled.div`
+ .icon-sy{
+  margin-bottom: 5px;
+ }
+ a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 6px;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 8px;
+ }
+ .active{
+    color: blue;
+  }
+`
+export const PleftFooterWrap = styled.div`
+ .icon-fx{
+   margin-bottom: 5px;
+ }
+ a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 6px;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 8px;
+ }
+ .active{
+    color: blue;
+  }
+`
+export const CenterFooterWrap = styled.div`
+ .icon-dd{
+   margin-bottom: 5px;
+ }
+ a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 6px;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 8px;
+ }
+ .active{
+    color: blue;
+  }
+`
+export const RightFooterWrap = styled.div`
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: 6px;
+ color: #ccc;
+ .icon-wd{
+   margin-bottom: 5px;
+ }
+ a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 6px;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 8px;
+ }
+ .active{
+    color: blue;
+  }
+`

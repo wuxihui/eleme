@@ -5,8 +5,15 @@ import {
   TheaderWrap,
   RheaderWrap,
   BheaderWrap,
-  MyInput 
+  MyInput,
+  HomeFooterWrap,
+  LeftFooterWrap,
+  PleftFooterWrap,
+  CenterFooterWrap,
+  RightFooterWrap 
 } from './style'
+import { NavLink } from 'react-router-dom'
+
 
 
 export default class Home extends Component {
@@ -27,6 +34,32 @@ export default class Home extends Component {
             </MyInput>
           </BheaderWrap>
         </HeaderWrap>
+        <HomeFooterWrap>
+          <LeftFooterWrap>
+            <NavLink to="/home">
+              <i className="iconfont icon-sy"></i>
+              首页
+            </NavLink>
+          </LeftFooterWrap>
+          <PleftFooterWrap>
+            <NavLink to="/Find">
+              <i className="iconfont icon-fx"></i>
+              发现
+            </NavLink>
+          </PleftFooterWrap>
+          <CenterFooterWrap>
+            <NavLink to="/Dingdan">
+              <i className="iconfont icon-dd"></i>
+              订单
+            </NavLink>
+          </CenterFooterWrap>
+          <RightFooterWrap>
+            <NavLink to="/Wode">
+              <i className="iconfont icon-wd"></i>
+              我的
+            </NavLink>
+          </RightFooterWrap>
+        </HomeFooterWrap>
       </HomeWrap>
     )
   }
