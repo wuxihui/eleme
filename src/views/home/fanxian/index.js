@@ -29,10 +29,10 @@ export default class Fanxian extends Component {
         </div>
         <section>
           <div className='m-header'>
-            <img src={require('../../images/zxt.jpg')} alt="" className='img01'/>
-            <img src={require('../../images/dianzhan.jpg')} alt="" />
+            <img src={require('../../../images/zxt.jpg')} alt="" className='img01'/>
+            <img src={require('../../../images/dianzhan.jpg')} alt="" />
             <h1>为你推荐</h1>
-            <img src={require('../../images/yxt.jpg')} alt="" className='img01'/>
+            <img src={require('../../../images/yxt.jpg')} alt="" className='img01'/>
             <p>你的口味,我都懂得</p>
           </div>
           <div className='m-sales'>
@@ -48,7 +48,7 @@ export default class Fanxian extends Component {
                 <span className='price-yh'>满18减14</span>
               </div>
               <div className='sales-addr'>
-              <img src={require('../../images/sales.jpg')} alt="" />
+              <img src={require('../../../images/naozhong.jpg')} alt="" />
                 <span>辣皇尚麻辣香锅(后瑞壹航城店)</span>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default class Fanxian extends Component {
                 <span className='price-yh'>满18减14</span>
               </div>
               <div className='sales-addr'>
-                <img src={require('../../images/sales.jpg')} alt="" />
+                <img src={require('../../../images/sales.jpg')} alt="" />
                 <span>辣皇尚麻辣香锅(后瑞壹航城店)</span>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default class Fanxian extends Component {
                 <span className='price-yh'>满18减14</span>
               </div>
               <div className='sales-addr'>
-                <img src={require('../../images/sales.jpg')} alt="" />
+                <img src={require('../../../images/sales.jpg')} alt="" />
                 <span>辣皇尚麻辣香锅(后瑞壹航城店)</span>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default class Fanxian extends Component {
                 <span className='price-yh'>满18减14</span>
               </div>
               <div className='sales-addr'>
-              <img src={require('../../images/sales.jpg')} alt="" />
+              <img src={require('../../../images/sales.jpg')} alt="" />
                 <span>辣皇尚麻辣香锅(后瑞壹航城店)</span>
               </div>
             </div>
@@ -105,10 +105,10 @@ export default class Fanxian extends Component {
         </section>
         <div className='giftbox'>
           <div className='g-header'>
-              <img src={require('../../images/zxt.jpg')} alt="" className='img01'/>
-              <img src={require('../../images/naozhong.jpg')} alt="" />
+              <img src={require('../../../images/zxt.jpg')} alt="" className='img01'/>
+              <img src={require('../../../images/naozhong.jpg')} alt="" />
               <h1>限时好礼</h1>
-              <img src={require('../../images/yxt.jpg')} alt="" className='img01'/>
+              <img src={require('../../../images/yxt.jpg')} alt="" className='img01'/>
               <p>金币换豪礼</p>
             </div>
           <div className='gitf-info'>
