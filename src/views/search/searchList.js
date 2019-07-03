@@ -24,7 +24,7 @@ class searchList extends Component {
         <span className='Hot-fsz'>热门搜索</span>
       </div>
       <HistoryList>
-      <div className='H-list'>一点点】】】</div>
+      <div className='H-list'>一点点</div>
       </HistoryList>
 
    </HotList>
