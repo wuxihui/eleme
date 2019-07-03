@@ -3,9 +3,11 @@ import {HomeWrap,HomeFooterWrap,
   LeftFooterWrap,
   PleftFooterWrap,
   CenterFooterWrap,
-  RightFooterWrap,} from './style'
+  RightFooterWrap 
+} from './style'
 import {Route, Switch,Redirect,NavLink } from 'react-router-dom'
 import Loadable from 'react-loadable'
+
 
 const Myhome = Loadable({
   loader: () => import('./myhome'),
