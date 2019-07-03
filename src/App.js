@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { 
   HashRouter as Router, 
   Route, 
@@ -11,6 +11,11 @@ const Home = Loadable({
   //加载中的提示组件
   loading: () => <div>加载中...</div>
 })
+const Search = Loadable({
+  loader: () => import('./views/search'),
+  //加载中的提示组件
+  loading: () => <div>加载中...</div>
+})
 
 
 export default class App extends Component {
@@ -18,7 +23,9 @@ export default class App extends Component {
     return (
       <Router>
         <Switch>
+           <Route path="/search" component={ Search } />
           <Route path="/" component={ Home } />
+
         </Switch>
       </Router>
     )
