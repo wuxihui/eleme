@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import { 
-  HashRouter as Router, 
-  Route, 
+
+import React, { Component } from 'react'
+import {
+  HashRouter as Router,
+  Route,
   Switch
 } from 'react-router-dom'
 import Loadable from 'react-loadable'
 
 const Home = Loadable({
-  loader: () => import('./views/home'),
+  loader: () => import('./views/home/index'),
   //加载中的提示组件
   loading: () => <div>加载中...</div>
 })
@@ -24,6 +25,10 @@ export default class App extends Component {
       <Router>
         <Switch>
            <Route path="/search" component={ Search } />
+
+          {/* <Route path="/center" component={ Center } />
+          <Route path="/order" component={ Order } />
+          <Route path="/fanxian" component={ Fanxian } /> */}
           <Route path="/" component={ Home } />
 
         </Switch>
