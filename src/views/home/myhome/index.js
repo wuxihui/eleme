@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Swiper from 'swiper/dist/js/swiper.js'
 import 'swiper/dist/css/swiper.min.css'
+import { connect } from "react-redux"
+import * as actions from './store/createAction'
 import {
   HomeWrap,
   HeaderWrap,
@@ -9,39 +11,20 @@ import {
   MyInput,
   HomeMapWrap,
   HomeTcenterWrap,
+  HomeDetailsWrap,
+  HomeIntroduceWrap,
   HomeCcenterWrap
 } from './style'
 import { Tabs } from 'antd'
 
 const { TabPane } = Tabs
 
-export default class Myhome extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      bannerList: [
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "美食" }
-      ],
-      superList: [
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "地方小吃" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "地方小吃" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "地方小吃" },
-        { "img": "https://fuss10.elemecdn.com/c/7e/76a23eb90dada42528bc41499d6f8jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90", "title": "地方小吃" }
-      ]
-    }
-  }
-
+class Myhome extends Component {
   componentDidMount() {
+    this.props.handelGetBannerList()
+    this.props.handelGetSuperList()
+    this.props.handelGetDetailsList()
+    this.props.handelGetQualityList()
     //可以加上你需要的条件等，然后生成Swiper对象，
     //一定要检查是不是每次都生成了Swiper对象，否则可能出现不滑动的情况和别的情况等
     new Swiper('.swiper-container', {
@@ -69,7 +52,7 @@ export default class Myhome extends Component {
         <HeaderWrap>
           <TheaderWrap>
             <i className="iconfont icon-weizhi"></i>
-              福中三路深圳市名
+            福中三路深圳市名
           </TheaderWrap>
           <BheaderWrap>
             <i className="iconfont icon-fdj"></i>
@@ -85,11 +68,11 @@ export default class Myhome extends Component {
             <div className="swiper-wrapper">
               <div className="swiper-slide">
                 {
-                  this.state.bannerList.map((item, index) => {
+                  this.props.bannerList.map((item, index) => {
                     return (
-                      <div key={index}>
+                      <div key={item.id}>
                         <img src={item.img} alt="" />
-                        <span>{item.title}</span>
+                        <span>{item.name}</span>
                       </div>
                     )
                   })
@@ -98,11 +81,11 @@ export default class Myhome extends Component {
               </div>
               <div className="swiper-slide">
                 {
-                  this.state.superList.map((item, index) => {
+                  this.props.superList.map(item => {
                     return (
-                      <div key={index}>
+                      <div key={item.id}>
                         <img src={item.img} alt="" />
-                        <span>{item.title}</span>
+                        <span>{item.name}</span>
                       </div>
                     )
                   })
@@ -119,44 +102,133 @@ export default class Myhome extends Component {
           推荐商家
            <span></span>
         </HomeTcenterWrap>
-<HomeCcenterWrap>
-        <Tabs defaultActiveKey="1" onChange={this.callback}>
-          <TabPane tab="Tab 1" key="1">
-            Content of Tab Pane 1
-    </TabPane>
-          <TabPane tab="Tab 2" key="2">
-            Content of Tab Pane 2
-    </TabPane>
+        <HomeCcenterWrap>
+          <Tabs defaultActiveKey="1" onChange={this.callback}>
+            <TabPane tab="距离最近" key="1">
 
-        </Tabs>
-</HomeCcenterWrap>
+              {
+                this.props.datalisList.map(item => {
+                  return (
+                    <HomeDetailsWrap key={item.id}>
+                      <p>
+                        <img src={item.img} alt={item.name} />
+                      </p>
+                      <HomeIntroduceWrap>
+                        <p>
+                          <span>{item.name}</span>
+                          <span><i className="iconfont icon-44">...</i></span>
+                        </p>
+                        <p>
+                          <span></span>
+                          <span>{item.sale}</span>
+                        </p>
+                        <p>
+                          <span>{item.flavors}</span>
+                          <span></span>
+                          <span>{item.delivery}</span>
+                          <span>{item.distance}m</span>
+                          <span></span>
+                          <span>{item.order_lead_time}分钟</span>
+                        </p>
+                        <p>
+                          <span>{item.coffe}</span>
+                          <span>{item.text}</span>
+                        </p>
+                        <p>
+                          <span>{item.icon_name1}</span>
+                          <span>{item.tips}</span>
+                          <span>5个活动</span>
+                          <span></span>
+                        </p>
+                        <p>
+                          <span>{item.icon_name2}</span>
+                          <span>{item.name1}</span>
+                        </p>
+                      </HomeIntroduceWrap>
+                    </HomeDetailsWrap>
+                  )
+                })
+              }
 
+
+            </TabPane>
+            <TabPane tab="品质联盟" key="2">
+              {
+                this.props.qualityList.map(item => {
+                  return (
+                    <HomeDetailsWrap key={item.id}>
+                      <p>
+                        <img src={item.img} alt={item.name} />
+                      </p>
+                      <HomeIntroduceWrap>
+                        <p>
+                          <span>{item.name}</span>
+                          <span><i className="iconfont icon-44">...</i></span>
+                        </p>
+                        <p>
+                          <span></span>
+                          <span>{item.sale}</span>
+                        </p>
+                        <p>
+                          <span>{item.flavors}</span>
+                          <span></span>
+                          <span>{item.delivery}</span>
+                          <span>{item.distance}km</span>
+                          <span></span>
+                          <span>{item.order_lead_time}分钟</span>
+                        </p>
+                        <p>
+                          <span>{item.cuisine}</span>
+                          <span>{item.text}</span>
+                        </p>
+                        <p>
+                          <span>{item.icon_name1}</span>
+                          <span>{item.tips}</span>
+                          <span>5个活动</span>
+                          <span></span>
+                        </p>
+                        <p>
+                          <span>{item.icon_name2}</span>
+                          <span>{item.name1}</span>
+                        </p>
+                      </HomeIntroduceWrap>
+                    </HomeDetailsWrap>
+                  )
+                })
+              }
+            </TabPane>
+
+          </Tabs>
+
+        </HomeCcenterWrap>
       </HomeWrap>
 
     )
   }
 }
-
-// import { Tabs } from 'antd';
-
-// const { TabPane } = Tabs;
-
-// function callback(key) {
-//   console.log(key);
-// }
-
-// ReactDOM.render(
-//   <Tabs defaultActiveKey="1" onChange={callback}>
-//     <TabPane tab="Tab 1" key="1">
-//       Content of Tab Pane 1
-//     </TabPane>
-//     <TabPane tab="Tab 2" key="2">
-//       Content of Tab Pane 2
-//     </TabPane>
-//     <TabPane tab="Tab 3" key="3">
-//       Content of Tab Pane 3
-//     </TabPane>
-//   </Tabs>,
-//   mountNode,
-// );
+const mapStateToProps = ({ myHome }) => {
+  return {
+    bannerList: myHome.bannerList,
+    superList: myHome.superList,
+    datalisList: myHome.datalisList,
+    qualityList: myHome.qualityList
+  }
+}
+const mapDisptachToProps = (dispatch) => {
+  return {
+    handelGetBannerList () {
+      dispatch(actions.axiosGetBannerList())
+    },
+    handelGetSuperList () {
+      dispatch(actions.axiosGetSuperList())
+    },
+    handelGetDetailsList () {
+      dispatch(actions.axiosGetDetailsList())
+    },
+    handelGetQualityList () {
+      dispatch(actions.axiosGetQualityList())
+    }
+  }
+}
+export default connect(mapStateToProps, mapDisptachToProps)(Myhome)
 
