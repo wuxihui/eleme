@@ -10,7 +10,7 @@ import {
   HomeMapWrap,
   HomeTcenterWrap,
   HomeCcenterWrap
-} from '../style'
+} from './style'
 import { Tabs } from 'antd'
 
 const { TabPane } = Tabs

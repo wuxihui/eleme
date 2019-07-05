@@ -1,0 +1,958 @@
+{
+  "items": [
+    {
+      "food": {
+        "activities": [
+          {
+            "background": {
+              "rgb_from": "FF822D",
+              "rgb_to": "FF2A00"
+            },
+            "description": "5折",
+            "icon_color": "F07373",
+            "icon_name": "折",
+            "id": 0,
+            "name": "立减优惠",
+            "tips": "5折"
+          }
+        ],
+        "cart_link": "eleme://restaurant?restaurant_id=E17790615860969798517&auto_expand_spec_panel=0&cart_operations=%7B%22add_foods%22%3A%20%5B%7B%22specs%22%3A%20%5B%5D%2C%20%22sku_id%22%3A%20%22481426985897%22%2C%20%22attrs%22%3A%20%5B%5D%2C%20%22id%22%3A%20860416988%2C%20%22quantity%22%3A%201%7D%5D%7D&target_food_id=860416988&auto_expand_cart_view=1&animation_type=1&category_id=538063663&type=0",
+        "category_id": 538063663,
+        "description": "包括：烤肉+配菜+酱菜+米饭+蜜汁，甜甜的，有一种热恋中的味道哦～",
+        "discount_activity": "",
+        "discount_rate": 0.5,
+        "food_id": 860416988,
+        "food_rate": "18人好评",
+        "icon_name": "折",
+        "id": 860416988,
+        "image_path": "https://fuss10.elemecdn.com/1/a3/3d78e0783b5b74ea767855dd2a8a7jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/",
+        "is_new": false,
+        "item_id": 813373516,
+        "month_sales": 163,
+        "name": "特色蜜汁烤肉拌饭",
+        "original_price": 27.8,
+        "packing_fee": 2,
+        "price": 13.9,
+        "product_activity_daily_stock": 50,
+        "product_activity_surplus_stock": 41,
+        "reason": "",
+        "restaurant_id": "E17790615860969798517",
+        "restaurant_name": "火焰山烤肉拌饭·脆皮鸡饭(黄田店)",
+        "satisfy_count": 18,
+        "satisfy_rate": 94,
+        "scheme": "eleme://catering?target_food_id=860416988&restaurant_id=E17790615860969798517&category_id=538063663",
+        "sku_id": "481426985897",
+        "stock": 9461,
+        "vfood_id": 813373516
+      },
+      "restaurant": {
+        "act_tag": 0,
+        "authentic_id": 2355183468542922,
+        "business_info": "{\"recent_order_num_display\": \"月售3070\", \"lemon_support_tags\": [{\"color\": \"cce23028\", \"text\": \"18减14\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"35减16\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"50减21\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"100减47\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"首单减22\", \"border\": \"4ce23028\", \"background\": null, \"type\": 5, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"5折\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"1元特价\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}], \"ad_info\": null}",
+        "delivery_fee_discount": 1.5,
+        "description": "",
+        "distance": 2235,
+        "favored": false,
+        "flavors": [
+          {
+            "id": 434,
+            "name": "烤肉拌饭"
+          },
+          {
+            "id": 426,
+            "name": "脆皮鸡饭"
+          }
+        ],
+        "float_delivery_fee": 0.5,
+        "float_minimum_order_amount": 10,
+        "has_story": false,
+        "id": "E17790615860969798517",
+        "image_path": "60386f875591fcd82df7ce610e60f49fpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_star": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 22.626572,
+        "longitude": 113.846412,
+        "max_applied_quantity_per_order": -1,
+        "name": "火焰山烤肉拌饭·脆皮鸡饭(黄田店)",
+        "next_business_time": "明天 10:00",
+        "only_use_poi": false,
+        "opening_hours": [
+          "10:00/24:00"
+        ],
+        "order_lead_time": 42,
+        "out_of_range": false,
+        "piecewise_agent_fee": {
+          "description": "配送费¥0.5",
+          "extra_fee": 0,
+          "is_extra": false,
+          "no_subsidy_fee": "¥2",
+          "rules": [
+            {
+              "fee": 0.5,
+              "price": 10
+            }
+          ],
+          "tips": "配送费¥0.5"
+        },
+        "platform": 0,
+        "posters": [],
+        "promotion_info": "小店联系电话13316963858",
+        "rating": 4.7,
+        "rating_count": 550,
+        "recent_order_num": 3070,
+        "recommend": {
+          "is_ad": false,
+          "reason": ""
+        },
+        "recommend_reasons": [
+          {
+            "name": "味道超赞"
+          },
+          {
+            "name": "回头客多"
+          }
+        ],
+        "regular_customer_count": 0,
+        "scheme": "eleme://catering?restaurant_id=E17790615860969798517",
+        "status": 1,
+        "support_tags": [
+          {
+            "border": "dddddd",
+            "color": "666666",
+            "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
+            "text": "烤肉拌饭",
+            "type": 1
+          },
+          {
+            "border": "4c000000",
+            "color": "99000000",
+            "text": "支持自取",
+            "type": 20
+          }
+        ],
+        "supports": [
+          {
+            "border": "90dddddd",
+            "description": "商家原因导致订单取消，赔付代金券",
+            "icon_color": "999999",
+            "icon_name": "赔",
+            "id": 10,
+            "name": "拒单赔",
+            "text_color": "666666",
+            "two_characters_icon_name": ""
+          },
+          {
+            "border": "90dddddd",
+            "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+            "icon_color": "999999",
+            "icon_name": "保",
+            "id": 7,
+            "name": "食安保",
+            "text_color": "666666",
+            "two_characters_icon_name": "保险"
+          }
+        ],
+        "theme": {
+          "default_color": "2395ff",
+          "header_style": 0,
+          "hongbao_style": 0,
+          "price_color": "ff5339",
+          "third_tab_name": "商家",
+          "vanish_fields": []
+        },
+        "type": 0
+      }
+    },
+    {
+      "food": {
+        "activities": [
+          {
+            "attribute": "{\"18\": {\"1\": 14.0, \"0\": 0}, \"35\": {\"1\": 16.0, \"0\": 0}, \"100\": {\"1\": 47.0, \"0\": 0}, \"50\": {\"1\": 21.0, \"0\": 0}}",
+            "description": "满18减14",
+            "icon_color": "f07373",
+            "icon_name": "减",
+            "id": 2023335978,
+            "is_exclusive_with_food_activity": true,
+            "name": "自营销复杂满减活动",
+            "tips": "满18减14",
+            "type": 102
+          }
+        ],
+        "cart_link": "eleme://restaurant?restaurant_id=E17790615860969798517&auto_expand_spec_panel=0&cart_operations=%7B%22add_foods%22%3A%20%5B%7B%22specs%22%3A%20%5B%5D%2C%20%22sku_id%22%3A%20%22481426986921%22%2C%20%22attrs%22%3A%20%5B%5D%2C%20%22id%22%3A%20860416989%2C%20%22quantity%22%3A%201%7D%5D%7D&target_food_id=860416989&auto_expand_cart_view=1&animation_type=1&category_id=538063663&type=0",
+        "category_id": 538063663,
+        "description": "包括：烤肉+配菜+酱菜+米饭+番茄酱，酸酸的我，有没有让你想起初恋的感觉～",
+        "discount_activity": "满18减14",
+        "food_id": 860416989,
+        "food_rate": "1人好评",
+        "id": 860416989,
+        "image_path": "https://fuss10.elemecdn.com/0/41/ef1285ac86c6fc33c0402fad7aa25jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/",
+        "is_new": false,
+        "item_id": 813373517,
+        "month_sales": 15,
+        "name": "风味番茄烤肉拌饭",
+        "packing_fee": 2,
+        "price": 27.8,
+        "reason": "",
+        "restaurant_id": "E17790615860969798517",
+        "restaurant_name": "火焰山烤肉拌饭·脆皮鸡饭(黄田店)",
+        "satisfy_count": 1,
+        "satisfy_rate": 100,
+        "scheme": "eleme://catering?target_food_id=860416989&restaurant_id=E17790615860969798517&category_id=538063663",
+        "sku_id": "481426986921",
+        "stock": 9920,
+        "vfood_id": 813373517
+      },
+      "restaurant": {
+        "act_tag": 0,
+        "authentic_id": 2355183468542922,
+        "business_info": "{\"recent_order_num_display\": \"月售3070\", \"lemon_support_tags\": [{\"color\": \"cce23028\", \"text\": \"18减14\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"35减16\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"50减21\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"100减47\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"首单减22\", \"border\": \"4ce23028\", \"background\": null, \"type\": 5, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"5折\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"1元特价\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}], \"ad_info\": null}",
+        "delivery_fee_discount": 1.5,
+        "description": "",
+        "distance": 2235,
+        "favored": false,
+        "flavors": [
+          {
+            "id": 434,
+            "name": "烤肉拌饭"
+          },
+          {
+            "id": 426,
+            "name": "脆皮鸡饭"
+          }
+        ],
+        "float_delivery_fee": 0.5,
+        "float_minimum_order_amount": 10,
+        "has_story": false,
+        "id": "E17790615860969798517",
+        "image_path": "60386f875591fcd82df7ce610e60f49fpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_star": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 22.626572,
+        "longitude": 113.846412,
+        "max_applied_quantity_per_order": -1,
+        "name": "火焰山烤肉拌饭·脆皮鸡饭(黄田店)",
+        "next_business_time": "明天 10:00",
+        "only_use_poi": false,
+        "opening_hours": [
+          "10:00/24:00"
+        ],
+        "order_lead_time": 42,
+        "out_of_range": false,
+        "piecewise_agent_fee": {
+          "description": "配送费¥0.5",
+          "extra_fee": 0,
+          "is_extra": false,
+          "no_subsidy_fee": "¥2",
+          "rules": [
+            {
+              "fee": 0.5,
+              "price": 10
+            }
+          ],
+          "tips": "配送费¥0.5"
+        },
+        "platform": 0,
+        "posters": [],
+        "promotion_info": "小店联系电话13316963858",
+        "rating": 4.7,
+        "rating_count": 550,
+        "recent_order_num": 3070,
+        "recommend": {
+          "is_ad": false,
+          "reason": ""
+        },
+        "recommend_reasons": [
+          {
+            "name": "味道超赞"
+          },
+          {
+            "name": "回头客多"
+          }
+        ],
+        "regular_customer_count": 0,
+        "scheme": "eleme://catering?restaurant_id=E17790615860969798517",
+        "status": 1,
+        "support_tags": [
+          {
+            "border": "dddddd",
+            "color": "666666",
+            "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
+            "text": "烤肉拌饭",
+            "type": 1
+          },
+          {
+            "border": "4c000000",
+            "color": "99000000",
+            "text": "支持自取",
+            "type": 20
+          }
+        ],
+        "supports": [
+          {
+            "border": "90dddddd",
+            "description": "商家原因导致订单取消，赔付代金券",
+            "icon_color": "999999",
+            "icon_name": "赔",
+            "id": 10,
+            "name": "拒单赔",
+            "text_color": "666666",
+            "two_characters_icon_name": ""
+          },
+          {
+            "border": "90dddddd",
+            "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+            "icon_color": "999999",
+            "icon_name": "保",
+            "id": 7,
+            "name": "食安保",
+            "text_color": "666666",
+            "two_characters_icon_name": "保险"
+          }
+        ],
+        "theme": {
+          "default_color": "2395ff",
+          "header_style": 0,
+          "hongbao_style": 0,
+          "price_color": "ff5339",
+          "third_tab_name": "商家",
+          "vanish_fields": []
+        },
+        "type": 0
+      }
+    },
+    {
+      "food": {
+        "activities": [
+          {
+            "background": {
+              "rgb_from": "FF822D",
+              "rgb_to": "FF2A00"
+            },
+            "description": "5折",
+            "icon_color": "F07373",
+            "icon_name": "折",
+            "id": 0,
+            "name": "立减优惠",
+            "tips": "5折"
+          }
+        ],
+        "cart_link": "eleme://restaurant?restaurant_id=E1997885475010127691&auto_expand_spec_panel=0&cart_operations=%7B%22add_foods%22%3A%20%5B%7B%22specs%22%3A%20%5B%5D%2C%20%22sku_id%22%3A%20%22312988530920%22%2C%20%22attrs%22%3A%20%5B%5D%2C%20%22id%22%3A%20695926300%2C%20%22quantity%22%3A%201%7D%5D%7D&target_food_id=695926300&auto_expand_cart_view=1&animation_type=1&category_id=516478634&type=0",
+        "category_id": 516478634,
+        "description": "蔬菜➕1份米饭➕1瓶可乐or王老吉",
+        "discount_activity": "",
+        "discount_rate": 0.5,
+        "food_id": 695926300,
+        "food_rate": "7人好评",
+        "icon_name": "折",
+        "id": 695926300,
+        "image_path": "https://fuss10.elemecdn.com/0/41/ef1285ac86c6fc33c0402fad7aa25jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/",
+        "is_new": false,
+        "item_id": 668416358,
+        "month_sales": 81,
+        "name": "单人全素菜   麻辣香锅",
+        "original_price": 47,
+        "packing_fee": 1,
+        "price": 23.5,
+        "product_activity_daily_stock": 10000,
+        "product_activity_surplus_stock": 9999,
+        "reason": "",
+        "restaurant_id": "E1997885475010127691",
+        "restaurant_name": "辣皇尚麻辣香锅(后瑞壹航城店)",
+        "satisfy_count": 7,
+        "satisfy_rate": 100,
+        "scheme": "eleme://catering?target_food_id=695926300&restaurant_id=E1997885475010127691&category_id=516478634",
+        "sku_id": "312988530920",
+        "stock": 8953,
+        "vfood_id": 668416358
+      },
+      "restaurant": {
+        "act_tag": 0,
+        "authentic_id": 8345183448011372,
+        "business_info": "{\"recent_order_num_display\": \"月售1762\", \"lemon_support_tags\": [{\"color\": \"cce23028\", \"text\": \"28减10\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"48减15\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"68减17\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"98减22\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"a25c03\", \"text\": \"7元会员红包\", \"border\": \"4ca25c03\", \"background\": null, \"type\": 2, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"品质联盟\", \"border\": \"4ce23028\", \"background\": null, \"type\": 4, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"0元配送\", \"border\": \"4ce23028\", \"background\": null, \"type\": 12, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"首单减21\", \"border\": \"4ce23028\", \"background\": null, \"type\": 5, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"5折\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"2.2元特价\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}], \"ad_info\": null}",
+        "delivery_fee_discount": 3,
+        "delivery_mode": {
+          "border": "",
+          "color": "2395FF",
+          "gradient": {
+            "rgb_from": "00AAFF",
+            "rgb_to": "0085FF"
+          },
+          "icon_hash": "b9b45d2f6ff0dbeef3a78ef0e4e90abapng",
+          "id": 1,
+          "is_solid": true,
+          "text": "蜂鸟专送",
+          "text_color": "FFFFFF"
+        },
+        "description": "后瑞地铁b出口",
+        "distance": 702,
+        "favored": false,
+        "flavors": [
+          {
+            "id": 1362,
+            "name": "其他香锅火锅"
+          }
+        ],
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 20,
+        "has_story": false,
+        "id": "E1997885475010127691",
+        "image_path": "c1ba7bb9dc920528d23e790b1a15bedajpeg",
+        "is_new": false,
+        "is_premium": false,
+        "is_star": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 22.630146,
+        "longitude": 113.835509,
+        "max_applied_quantity_per_order": -1,
+        "name": "辣皇尚麻辣香锅(后瑞壹航城店)",
+        "next_business_time": "明天 10:30",
+        "only_use_poi": false,
+        "opening_hours": [
+          "10:30/23:20"
+        ],
+        "order_lead_time": 40,
+        "out_of_range": false,
+        "piecewise_agent_fee": {
+          "description": "免配送费",
+          "extra_fee": 0,
+          "is_extra": false,
+          "no_subsidy_fee": "¥3",
+          "rules": [
+            {
+              "fee": 0,
+              "price": 20
+            }
+          ],
+          "tips": "免配送费"
+        },
+        "platform": 0,
+        "posters": [],
+        "promotion_info": "本店宗旨，必须美味！必须卫生！\n尊敬的顾客朋友，如需米饭请记得下单。本店不免费提供，谢谢。",
+        "rating": 4.4,
+        "rating_count": 1704,
+        "recent_order_num": 1762,
+        "recommend": {
+          "is_ad": false,
+          "reason": ""
+        },
+        "recommend_reasons": [],
+        "regular_customer_count": 0,
+        "scheme": "eleme://catering?restaurant_id=E1997885475010127691",
+        "status": 1,
+        "support_tags": [
+          {
+            "border": "dddddd",
+            "color": "666666",
+            "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
+            "text": "其他香锅火锅",
+            "type": 1
+          },
+          {
+            "border": "4c000000",
+            "color": "99000000",
+            "text": "支持自取",
+            "type": 20
+          },
+          {
+            "border": "dddddd",
+            "color": "333333",
+            "text": "品质联盟"
+          }
+        ],
+        "supports": [
+          {
+            "border": "90dddddd",
+            "description": "商家原因导致订单取消，赔付代金券",
+            "icon_color": "999999",
+            "icon_name": "赔",
+            "id": 10,
+            "name": "拒单赔",
+            "text_color": "666666",
+            "two_characters_icon_name": ""
+          },
+          {
+            "border": "90dddddd",
+            "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+            "icon_color": "999999",
+            "icon_name": "保",
+            "id": 7,
+            "name": "食安保",
+            "text_color": "666666",
+            "two_characters_icon_name": "保险"
+          }
+        ],
+        "theme": {
+          "default_color": "2395ff",
+          "header_style": 0,
+          "hongbao_style": 0,
+          "price_color": "ff5339",
+          "third_tab_name": "商家",
+          "vanish_fields": []
+        },
+        "type": 0
+      }
+    },
+    {
+      "food": {
+        "activities": [
+          {
+            "background": {
+              "rgb_from": "FF822D",
+              "rgb_to": "FF2A00"
+            },
+            "description": "5折",
+            "icon_color": "F07373",
+            "icon_name": "折",
+            "id": 0,
+            "name": "立减优惠",
+            "tips": "5折"
+          }
+        ],
+        "cart_link": "eleme://restaurant?restaurant_id=E1997885475010127691&auto_expand_spec_panel=0&cart_operations=%7B%22add_foods%22%3A%20%5B%7B%22specs%22%3A%20%5B%5D%2C%20%22sku_id%22%3A%20%22312991656168%22%2C%20%22attrs%22%3A%20%5B%5D%2C%20%22id%22%3A%20695929352%2C%20%22quantity%22%3A%201%7D%5D%7D&target_food_id=695929352&auto_expand_cart_view=1&animation_type=1&category_id=516478634&type=0",
+        "category_id": 516478634,
+        "description": "肉丸➕蔬菜➕1份米饭➕1瓶可乐or王老吉",
+        "discount_activity": "",
+        "discount_rate": 0.5,
+        "food_id": 695929352,
+        "food_rate": "4人好评",
+        "icon_name": "折",
+        "id": 695929352,
+        "image_path": "https://fuss10.elemecdn.com/6/85/8398a84fedb74872aca8af2da1fb1jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/",
+        "is_new": false,
+        "item_id": 668389737,
+        "month_sales": 90,
+        "name": "肉丸  麻辣香锅",
+        "original_price": 54.5,
+        "packing_fee": 1,
+        "price": 27.25,
+        "product_activity_daily_stock": 10000,
+        "product_activity_surplus_stock": 9997,
+        "reason": "",
+        "restaurant_id": "E1997885475010127691",
+        "restaurant_name": "辣皇尚麻辣香锅(后瑞壹航城店)",
+        "satisfy_count": 4,
+        "satisfy_rate": 100,
+        "scheme": "eleme://catering?target_food_id=695929352&restaurant_id=E1997885475010127691&category_id=516478634",
+        "sku_id": "312991656168",
+        "stock": 9273,
+        "vfood_id": 668389737
+      },
+      "restaurant": {
+        "act_tag": 0,
+        "authentic_id": 8345183448011372,
+        "business_info": "{\"recent_order_num_display\": \"月售1762\", \"lemon_support_tags\": [{\"color\": \"cce23028\", \"text\": \"28减10\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"48减15\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"68减17\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"98减22\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"a25c03\", \"text\": \"7元会员红包\", \"border\": \"4ca25c03\", \"background\": null, \"type\": 2, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"品质联盟\", \"border\": \"4ce23028\", \"background\": null, \"type\": 4, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"0元配送\", \"border\": \"4ce23028\", \"background\": null, \"type\": 12, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"首单减21\", \"border\": \"4ce23028\", \"background\": null, \"type\": 5, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"5折\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"2.2元特价\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}], \"ad_info\": null}",
+        "delivery_fee_discount": 3,
+        "delivery_mode": {
+          "border": "",
+          "color": "2395FF",
+          "gradient": {
+            "rgb_from": "00AAFF",
+            "rgb_to": "0085FF"
+          },
+          "icon_hash": "b9b45d2f6ff0dbeef3a78ef0e4e90abapng",
+          "id": 1,
+          "is_solid": true,
+          "text": "蜂鸟专送",
+          "text_color": "FFFFFF"
+        },
+        "description": "后瑞地铁b出口",
+        "distance": 702,
+        "favored": false,
+        "flavors": [
+          {
+            "id": 1362,
+            "name": "其他香锅火锅"
+          }
+        ],
+        "float_delivery_fee": 0,
+        "float_minimum_order_amount": 20,
+        "has_story": false,
+        "id": "E1997885475010127691",
+        "image_path": "c1ba7bb9dc920528d23e790b1a15bedajpeg",
+        "is_new": false,
+        "is_premium": false,
+        "is_star": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 22.630146,
+        "longitude": 113.835509,
+        "max_applied_quantity_per_order": -1,
+        "name": "辣皇尚麻辣香锅(后瑞壹航城店)",
+        "next_business_time": "明天 10:30",
+        "only_use_poi": false,
+        "opening_hours": [
+          "10:30/23:20"
+        ],
+        "order_lead_time": 40,
+        "out_of_range": false,
+        "piecewise_agent_fee": {
+          "description": "免配送费",
+          "extra_fee": 0,
+          "is_extra": false,
+          "no_subsidy_fee": "¥3",
+          "rules": [
+            {
+              "fee": 0,
+              "price": 20
+            }
+          ],
+          "tips": "免配送费"
+        },
+        "platform": 0,
+        "posters": [],
+        "promotion_info": "本店宗旨，必须美味！必须卫生！\n尊敬的顾客朋友，如需米饭请记得下单。本店不免费提供，谢谢。",
+        "rating": 4.4,
+        "rating_count": 1704,
+        "recent_order_num": 1762,
+        "recommend": {
+          "is_ad": false,
+          "reason": ""
+        },
+        "recommend_reasons": [],
+        "regular_customer_count": 0,
+        "scheme": "eleme://catering?restaurant_id=E1997885475010127691",
+        "status": 1,
+        "support_tags": [
+          {
+            "border": "dddddd",
+            "color": "666666",
+            "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
+            "text": "其他香锅火锅",
+            "type": 1
+          },
+          {
+            "border": "4c000000",
+            "color": "99000000",
+            "text": "支持自取",
+            "type": 20
+          },
+          {
+            "border": "dddddd",
+            "color": "333333",
+            "text": "品质联盟"
+          }
+        ],
+        "supports": [
+          {
+            "border": "90dddddd",
+            "description": "商家原因导致订单取消，赔付代金券",
+            "icon_color": "999999",
+            "icon_name": "赔",
+            "id": 10,
+            "name": "拒单赔",
+            "text_color": "666666",
+            "two_characters_icon_name": ""
+          },
+          {
+            "border": "90dddddd",
+            "description": "该商户食品安全已由国泰产险承担，食品安全有保障",
+            "icon_color": "999999",
+            "icon_name": "保",
+            "id": 7,
+            "name": "食安保",
+            "text_color": "666666",
+            "two_characters_icon_name": "保险"
+          }
+        ],
+        "theme": {
+          "default_color": "2395ff",
+          "header_style": 0,
+          "hongbao_style": 0,
+          "price_color": "ff5339",
+          "third_tab_name": "商家",
+          "vanish_fields": []
+        },
+        "type": 0
+      }
+    },
+    {
+      "food": {
+        "activities": [
+          {
+            "attribute": "{\"25\": {\"1\": 13.0, \"0\": 0}, \"50\": {\"1\": 18.0, \"0\": 0}, \"75\": {\"1\": 22.0, \"0\": 0}, \"100\": {\"1\": 28.0, \"0\": 0}}",
+            "description": "满25减13",
+            "icon_color": "f07373",
+            "icon_name": "减",
+            "id": 21802780170,
+            "is_exclusive_with_food_activity": true,
+            "name": "自营销复杂满减活动",
+            "tips": "满25减13",
+            "type": 102
+          }
+        ],
+        "cart_link": "eleme://restaurant?restaurant_id=E16542029637974104307&auto_expand_spec_panel=0&cart_operations=%7B%22add_foods%22%3A%20%5B%7B%22specs%22%3A%20%5B%5D%2C%20%22sku_id%22%3A%20%224567480270%22%2C%20%22attrs%22%3A%20%5B%5D%2C%20%22id%22%3A%20151836936%2C%20%22quantity%22%3A%201%7D%5D%7D&target_food_id=151836936&auto_expand_cart_view=1&animation_type=1&category_id=14924349&type=0",
+        "category_id": 14924349,
+        "description": "",
+        "discount_activity": "满25减13",
+        "food_id": 151836936,
+        "food_rate": "0人好评",
+        "id": 151836936,
+        "image_path": "https://fuss10.elemecdn.com/9/ba/21286196eb0702c3af9c25ba5b876jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/",
+        "is_new": false,
+        "item_id": 88460822,
+        "month_sales": 7,
+        "name": "皇芝士宇治抹茶",
+        "packing_fee": 1,
+        "price": 18,
+        "reason": "",
+        "restaurant_id": "E16542029637974104307",
+        "restaurant_name": "royaltea皇茶(后瑞店)",
+        "satisfy_count": 0,
+        "satisfy_rate": 0,
+        "scheme": "eleme://catering?target_food_id=151836936&restaurant_id=E16542029637974104307&category_id=14924349",
+        "sku_id": "4567480270",
+        "stock": 9735,
+        "vfood_id": 88460822
+      },
+      "restaurant": {
+        "act_tag": 0,
+        "authentic_id": 1315163457358389,
+        "business_info": "{\"recent_order_num_display\": \"月售1538\", \"lemon_support_tags\": [{\"color\": \"cce23028\", \"text\": \"25减13\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"50减18\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"75减22\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"100减28\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"a25c03\", \"text\": \"7元会员红包\", \"border\": \"4ca25c03\", \"background\": null, \"type\": 2, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"品质联盟\", \"border\": \"4ce23028\", \"background\": null, \"type\": 4, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"首单减19\", \"border\": \"4ce23028\", \"background\": null, \"type\": 5, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"门店新客减1\", \"border\": \"4ce23028\", \"background\": null, \"type\": 6, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"6折\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"8元特价\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}], \"ad_info\": null}",
+        "delivery_fee_discount": 0,
+        "description": "",
+        "distance": 684,
+        "favored": false,
+        "flavors": [
+          {
+            "id": 240,
+            "name": "奶茶果汁"
+          },
+          {
+            "id": 241,
+            "name": "甜品"
+          }
+        ],
+        "float_delivery_fee": 2,
+        "float_minimum_order_amount": 20,
+        "has_story": false,
+        "id": "E16542029637974104307",
+        "image_path": "3f9ba92505fa7b7f3d16e552aedc6d79png",
+        "is_new": false,
+        "is_premium": false,
+        "is_star": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 22.630758,
+        "longitude": 113.836256,
+        "max_applied_quantity_per_order": -1,
+        "name": "royaltea皇茶(后瑞店)",
+        "next_business_time": "明天 10:00",
+        "only_use_poi": false,
+        "opening_hours": [
+          "10:00/23:50"
+        ],
+        "order_lead_time": 40,
+        "out_of_range": false,
+        "piecewise_agent_fee": {
+          "description": "配送费¥2",
+          "extra_fee": 0,
+          "is_extra": false,
+          "no_subsidy_fee": "",
+          "rules": [
+            {
+              "fee": 2,
+              "price": 20
+            }
+          ],
+          "tips": "配送费¥2"
+        },
+        "platform": 0,
+        "posters": [],
+        "promotion_info": "新店入驻，欢迎下单品尝！优惠多多！",
+        "rating": 4.7,
+        "rating_count": 318,
+        "recent_order_num": 1538,
+        "recommend": {
+          "is_ad": false,
+          "reason": ""
+        },
+        "recommend_reasons": [
+          {
+            "name": "回头客多"
+          }
+        ],
+        "regular_customer_count": 0,
+        "scheme": "eleme://catering?restaurant_id=E16542029637974104307",
+        "status": 1,
+        "support_tags": [
+          {
+            "border": "dddddd",
+            "color": "666666",
+            "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
+            "text": "奶茶果汁",
+            "type": 1
+          },
+          {
+            "border": "4c000000",
+            "color": "99000000",
+            "text": "支持自取",
+            "type": 20
+          },
+          {
+            "border": "dddddd",
+            "color": "333333",
+            "text": "品质联盟"
+          }
+        ],
+        "supports": [],
+        "theme": {
+          "default_color": "2395ff",
+          "header_style": 0,
+          "hongbao_style": 0,
+          "price_color": "ff5339",
+          "third_tab_name": "商家",
+          "vanish_fields": []
+        },
+        "type": 0
+      }
+    },
+    {
+      "food": {
+        "activities": [
+          {
+            "attribute": "{\"25\": {\"1\": 13.0, \"0\": 0}, \"50\": {\"1\": 18.0, \"0\": 0}, \"75\": {\"1\": 22.0, \"0\": 0}, \"100\": {\"1\": 28.0, \"0\": 0}}",
+            "description": "满25减13",
+            "icon_color": "f07373",
+            "icon_name": "减",
+            "id": 21802780170,
+            "is_exclusive_with_food_activity": true,
+            "name": "自营销复杂满减活动",
+            "tips": "满25减13",
+            "type": 102
+          }
+        ],
+        "cart_link": "eleme://restaurant?restaurant_id=E16542029637974104307&auto_expand_spec_panel=0&cart_operations=%7B%22add_foods%22%3A%20%5B%7B%22specs%22%3A%20%5B%5D%2C%20%22sku_id%22%3A%20%224567482318%22%2C%20%22attrs%22%3A%20%5B%5D%2C%20%22id%22%3A%20151837364%2C%20%22quantity%22%3A%201%7D%5D%7D&target_food_id=151837364&auto_expand_cart_view=1&animation_type=1&category_id=14924349&type=0",
+        "category_id": 14924349,
+        "description": "",
+        "discount_activity": "满25减13",
+        "food_id": 151837364,
+        "food_rate": "2人好评",
+        "id": 151837364,
+        "image_path": "https://fuss10.elemecdn.com/0/8d/d804dbf87d47d9b96836172404d63jpeg.jpeg?imageMogr/format/webp/thumbnail/!345x345r/gravity/Center/crop/345x345/",
+        "is_new": false,
+        "item_id": 88461107,
+        "month_sales": 23,
+        "name": "红豆\\珍珠宇治抹茶",
+        "packing_fee": 1,
+        "price": 17,
+        "reason": "",
+        "restaurant_id": "E16542029637974104307",
+        "restaurant_name": "royaltea皇茶(后瑞店)",
+        "satisfy_count": 2,
+        "satisfy_rate": 66,
+        "scheme": "eleme://catering?target_food_id=151837364&restaurant_id=E16542029637974104307&category_id=14924349",
+        "sku_id": "4567482318",
+        "stock": 9584,
+        "vfood_id": 88461107
+      },
+      "restaurant": {
+        "act_tag": 0,
+        "authentic_id": 1315163457358389,
+        "business_info": "{\"recent_order_num_display\": \"月售1538\", \"lemon_support_tags\": [{\"color\": \"cce23028\", \"text\": \"25减13\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"50减18\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"75减22\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"100减28\", \"border\": \"4ce23028\", \"background\": null, \"type\": 1, \"icon\": null}, {\"color\": \"a25c03\", \"text\": \"7元会员红包\", \"border\": \"4ca25c03\", \"background\": null, \"type\": 2, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"品质联盟\", \"border\": \"4ce23028\", \"background\": null, \"type\": 4, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"首单减19\", \"border\": \"4ce23028\", \"background\": null, \"type\": 5, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"门店新客减1\", \"border\": \"4ce23028\", \"background\": null, \"type\": 6, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"6折\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}, {\"color\": \"cce23028\", \"text\": \"8元特价\", \"border\": \"4ce23028\", \"background\": null, \"type\": 7, \"icon\": null}], \"ad_info\": null}",
+        "delivery_fee_discount": 0,
+        "description": "",
+        "distance": 684,
+        "favored": false,
+        "flavors": [
+          {
+            "id": 240,
+            "name": "奶茶果汁"
+          },
+          {
+            "id": 241,
+            "name": "甜品"
+          }
+        ],
+        "float_delivery_fee": 2,
+        "float_minimum_order_amount": 20,
+        "has_story": false,
+        "id": "E16542029637974104307",
+        "image_path": "3f9ba92505fa7b7f3d16e552aedc6d79png",
+        "is_new": false,
+        "is_premium": false,
+        "is_star": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 22.630758,
+        "longitude": 113.836256,
+        "max_applied_quantity_per_order": -1,
+        "name": "royaltea皇茶(后瑞店)",
+        "next_business_time": "明天 10:00",
+        "only_use_poi": false,
+        "opening_hours": [
+          "10:00/23:50"
+        ],
+        "order_lead_time": 40,
+        "out_of_range": false,
+        "piecewise_agent_fee": {
+          "description": "配送费¥2",
+          "extra_fee": 0,
+          "is_extra": false,
+          "no_subsidy_fee": "",
+          "rules": [
+            {
+              "fee": 2,
+              "price": 20
+            }
+          ],
+          "tips": "配送费¥2"
+        },
+        "platform": 0,
+        "posters": [],
+        "promotion_info": "新店入驻，欢迎下单品尝！优惠多多！",
+        "rating": 4.7,
+        "rating_count": 318,
+        "recent_order_num": 1538,
+        "recommend": {
+          "is_ad": false,
+          "reason": ""
+        },
+        "recommend_reasons": [
+          {
+            "name": "回头客多"
+          }
+        ],
+        "regular_customer_count": 0,
+        "scheme": "eleme://catering?restaurant_id=E16542029637974104307",
+        "status": 1,
+        "support_tags": [
+          {
+            "border": "dddddd",
+            "color": "666666",
+            "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
+            "text": "奶茶果汁",
+            "type": 1
+          },
+          {
+            "border": "4c000000",
+            "color": "99000000",
+            "text": "支持自取",
+            "type": 20
+          },
+          {
+            "border": "dddddd",
+            "color": "333333",
+            "text": "品质联盟"
+          }
+        ],
+        "supports": [],
+        "theme": {
+          "default_color": "2395ff",
+          "header_style": 0,
+          "hongbao_style": 0,
+          "price_color": "ff5339",
+          "third_tab_name": "商家",
+          "vanish_fields": []
+        },
+        "type": 0
+      }
+    }
+  ]
+}

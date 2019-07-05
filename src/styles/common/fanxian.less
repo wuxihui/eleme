@@ -1,6 +1,11 @@
 @import './variable.less';
+img{
+  vertical-align: baseline !important;
+}
 .discover{
   background: @maincolor;
+  overflow-y: auto;
+  height:100%;
   .parts{
     height: 158px;
     margin-bottom: 10px;
@@ -12,6 +17,7 @@
      border-right: 1px solid @maincolor;
      width: 50%;
      position: relative;
+     text-decoration: none;
      h1{
       color: rgb(255, 153, 0);
       font-size: 16px;
@@ -38,6 +44,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-decoration: none;
         img{
           width: 40px;
           height: 40px;
@@ -59,6 +66,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-decoration: none;
         img{
           width: 44px;
           height: 44px;
@@ -102,16 +110,14 @@
     .m-sales{
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-evenly;
       .sales-info{
-        width: 172px;
-        height: 262px;
+        width: 46%;
         border: 1px solid @maincolor;
         box-sizing: border-box;
-        margin-left: 9px;
         margin-top: 9px;
         img{
-          width: 170px;
-          height: 170px;
+          width: 100%;
         }
         h2{
           overflow: hidden;
@@ -126,7 +132,7 @@
         .s-num{
           color:#666;
           padding-left: 10px;
-          padding-top: 7px;
+          padding-top: 5px;
         }
         .s-price{
           padding-left: 10px;
@@ -143,6 +149,10 @@
             border: 1px solid #f66d6b;
             font-size: 10px;
           }
+          .price-you{
+            text-decoration: line-through;
+            color:#aaa;
+          }
         }
         .sales-addr{
           margin-left: 10px;
@@ -152,9 +162,11 @@
           white-space: nowrap;
           overflow: hidden;
           color: #999;
-          padding-top: 7px;
           span{
             padding-left: 7px;
+            display: inline-block;
+            height: 24px;
+            line-height: 24px;
           }
           img{
             width: 10px;
@@ -197,13 +209,14 @@
         font-size: 10px;
         margin-top: 3px;
         margin-bottom: 5px;
+
       }
     }
     .gitf-info{
       padding: 15px 0 15px 15px;
       display: flex;
+      justify-content: space-evenly;
       .info-box{
-        margin-right: 6px;
         p{
           color: #999;
           margin-bottom: 3px;
@@ -226,11 +239,7 @@
           margin-bottom: 8px;
           position: relative;
           img{
-            position: absolute;
-            top:35px;
-            left: 16px;
-            width: 85px;
-            height: 65px;
+            width: 88%;
           }
           span{
             background: #403c3b;
@@ -251,5 +260,6 @@
   .bot{
     height: 21px;
     background: @maincolor;
+    margin-bottom: 50px;
   }
 }
