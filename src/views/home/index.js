@@ -3,10 +3,9 @@ import {HomeWrap,HomeFooterWrap,
   LeftFooterWrap,
   PleftFooterWrap,
   CenterFooterWrap,
-  RightFooterWrap,} from './style'
+  RightFooterWrap,} from './myhome/style'
 import {Route, Switch,Redirect,NavLink } from 'react-router-dom'
 import Loadable from 'react-loadable'
-
 const Myhome = Loadable({
   loader: () => import('./myhome'),
   loading: () => <div>加载中...</div>
@@ -31,6 +30,13 @@ export default class Home extends Component {
   render() {
     return (
       <HomeWrap>
+          <Switch>
+            <Route path='/myhome' component={Myhome}></Route>
+            <Route path='/fanxian' component={Fanxian}></Route>
+            <Route path='/order' component={Order}></Route>
+            <Route path='/center' component={Center}></Route>
+            <Redirect to='/myhome'/>
+          </Switch>
         <HomeFooterWrap>
           <LeftFooterWrap>
             <NavLink to="/home">
@@ -57,13 +63,6 @@ export default class Home extends Component {
             </NavLink>
           </RightFooterWrap>
         </HomeFooterWrap>
-        <Switch>
-          <Route path='/myhome' component={Myhome}></Route>
-          <Route path='/fanxian' component={Fanxian}></Route>
-          <Route path='/order' component={Order}></Route>
-          <Route path='/center' component={Center}></Route>
-          <Redirect to='/myhome'/>
-        </Switch>
       </HomeWrap>
 
     )

@@ -50,6 +50,7 @@ export const MyFdaJing = styled.div`
  color: #ccc;
 `
 export const HomeFooterWrap = styled.div`
+ background: #fff;
  display: flex;
  flex: 1;
  justify-content: space-around;
@@ -136,7 +137,7 @@ export const HomeMapWrap = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   font-size: 14px; 
+   font-size: 14px;
   }
   img{
     width: 50px;
