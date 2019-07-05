@@ -1,9 +1,4 @@
-//引入拆分出去的仓库,然后在暴露出去
-import {combineReducer} from 'redux-immutable'
-import {reducer as loginReducer} from '../views/home/login/store'
 
-const reducer = combineReducers({
-  login:loginReducer
-})
+import fanxianReducer from '../views/home/fanxian/store/reducer'
 
-export default reducer
+export const fanxian = fanxianReducer
