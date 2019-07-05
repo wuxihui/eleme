@@ -30,9 +30,7 @@ class search extends Component {
             </NavLink>
           </Search>
         </SHeadWrap>
-      
-
-
+        
         <Content>
           {
             showWho
