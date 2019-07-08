@@ -74,7 +74,7 @@ export const LeftFooterWrap = styled.div`
   font-size: 6px;
   color: #ccc;
   text-decoration: none;
-  margin-top: 3px;
+  margin-top: 10px;
  }
  .active{
     color: blue;
@@ -89,7 +89,7 @@ export const PleftFooterWrap = styled.div`
   font-size: 6px;
   color: #ccc;
   text-decoration: none;
-  margin-top: 3px;
+  margin-top: 10px;
  }
  .active{
     color: blue;
@@ -104,7 +104,7 @@ export const CenterFooterWrap = styled.div`
   font-size: 6px;
   color: #ccc;
   text-decoration: none;
-  margin-top: 3px;
+  margin-top: 10px;
  }
  .active{
     color: blue;
@@ -119,7 +119,7 @@ export const RightFooterWrap = styled.div`
   font-size: 6px;
   color: #ccc;
   text-decoration: none;
-  margin-top: 3px;
+  margin-top: 10px;
  }
  .active{
     color: blue;
@@ -179,37 +179,7 @@ export const HomeCcenterWrap = styled.div`
    bottom: 50px;
 `
 
-// export const HomeCcenterWrap = styled.div`
-//   display: flex;
-//   height: 40px;
-//   line-height: 40px;
-//   margin-top: 20px;
 
-//   height: 170px;
-//   border-bottom: 1px solid #ccc;
-//   display: flex;
-//   padding-left: 10px;
-//   img{
-//     height: 80px;
-//     width: 80px;
-//   }
-//   p:nth-child(1){
-//     span{
-//       display: inline-block;
-//       width: 0;
-//       height: 0;
-//       border-top: 5px solid #000;
-//       border-left: 4px solid #fff;
-//       border-right: 4px solid #fff;
-//       border-bottom: 4px solid #fff;
-//       margin-left: 5px;
-//     }
-//   }
-//   p{
-//     flex: 1;
-//     text-align: center;
-//   }
-// `
 export const HomeDetailsWrap = styled.div`
   height: 170px;
   border-bottom: 1px solid #ccc;
@@ -233,14 +203,14 @@ export const HomeIntroduceWrap = styled.div`
     }
   }
   p:nth-child(2){
-    margin-top: -15px;
+    /* margin-top: -15px; */
     span:nth-child(2){
       margin-left: 50px;
       font-size: 10px;
     }
   }
   p:nth-child(3){
-    margin-top: -15px;
+    /* margin-top: -15px; */
     span:nth-child(1){
       font-size: 6px;
     }
@@ -270,7 +240,7 @@ export const HomeIntroduceWrap = styled.div`
     }
   }
   p:nth-child(4){
-      margin-top: -8px;
+      margin-top: 5px;
       span:nth-child(1){
         font-size: 6px;
         border: 1px solid #ccc;
@@ -314,7 +284,7 @@ export const HomeIntroduceWrap = styled.div`
       }
     }
     p:nth-child(6){
-        margin-top: 15px;
+        margin-top: 5px;
         span:nth-child(1){
           background-color: rgb(112, 188, 70);
         }

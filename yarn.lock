@@ -1303,14 +1303,16 @@
 
 "@types/istanbul-reports@^1.1.1":
   version "1.1.1"
-  resolved "http://r.cnpmjs.org/@types/istanbul-reports/download/@types/istanbul-reports-1.1.1.tgz#7a8cbf6a406f36c8add871625b278eaf0b0d255a"
+  resolved "https://registry.npm.taobao.org/@types/istanbul-reports/download/@types/istanbul-reports-1.1.1.tgz#7a8cbf6a406f36c8add871625b278eaf0b0d255a"
   integrity sha1-eoy/akBvNsit2HFiWyeOrwsNJVo=
   dependencies:
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
-  version "12.0.10"
-  resolved "http://r.cnpmjs.org/@types/node/download/@types/node-12.0.10.tgz#51babf9c7deadd5343620055fc8aff7995c8b031"
-  integrity sha1-Ubq/nH3q3VNDYgBV/Ir/eZXIsDE=
+
+"@types/node@*":
+  version "12.0.12"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.0.12.tgz#cc791b402360db1eaf7176479072f91ee6c6c7ca"
+  integrity sha1-zHkbQCNg2x6vcXZHkHL5HubGx8o=
 
 "@types/prop-types@*":
   version "15.7.1"
@@ -1602,6 +1604,7 @@ acorn@^6.0.1, acorn@^6.0.4, acorn@^6.0.5, acorn@^6.0.7:
   version "6.1.1"
   resolved "http://r.cnpmjs.org/acorn/download/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha1-fSWuBbuK0fm2mRCOEJTs14hK3B8=
+
 add-dom-event-listener@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/add-dom-event-listener/download/add-dom-event-listener-1.1.0.tgz#6a92db3a0dd0abc254e095c0f1dc14acbbaae310"
@@ -3311,7 +3314,6 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.
 debug@=3.1.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-
   integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
   dependencies:
     ms "2.0.0"
@@ -8961,9 +8963,9 @@ react-router@5.0.1:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-scripts@^3.0.1:
+react-scripts@3.0.1:
   version "3.0.1"
-  resolved "http://r.cnpmjs.org/react-scripts/download/react-scripts-3.0.1.tgz#e5565350d8069cc9966b5998d3fe3befe3d243ac"
+  resolved "https://registry.npm.taobao.org/react-scripts/download/react-scripts-3.0.1.tgz#e5565350d8069cc9966b5998d3fe3befe3d243ac"
   integrity sha1-5VZTUNgGnMmWa1mY0/477+PSQ6w=
   dependencies:
     "@babel/core" "7.4.3"
