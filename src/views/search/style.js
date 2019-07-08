@@ -92,3 +92,63 @@ export const HotList =styled.div`
     font-weight:700;
 }
 `
+//searchlist2 -------------------------------------
+export const Listul =styled.div`
+
+.shopList{
+  display:flex;
+  .Listimg{
+    height: 55px;;
+    width:55px;
+    img{
+      height:25px;
+      margin:15px
+    }
+  }
+  .Listfont{
+    display:flex;
+    align-items:center;
+    border-bottom: 1px solid #e3e3e3;
+    width:100%
+    p{
+      font-size:14px
+    }
+    .ListJian{
+      background-color: rgb(250, 112, 71);
+      color:#fff;
+      margin-left:5px;
+      font-size:12px;
+    }
+    .Listkudi{
+      background-color: rgb(35, 149, 255);
+      color:#fff;
+      margin-left:5px;
+      font-size:12px;
+    }
+    .Listpinfeng{
+      position:absolute;
+      right:20px;
+      font-size:12px;
+      color: #999;
+    }
+  }
+}
+`
+export const Listul2 =styled.div`
+
+.Listul2{
+  display:flex;
+  .iconSizi{
+    height: 54px;;
+    width:45px;
+    line-height:54px;
+    text-align:center;
+  }
+  .fontcont{
+    line-height:54px;
+    font-size:14px;
+    border-bottom: 1px solid #e3e3e3;
+    width:100%
+  }
+}
+`

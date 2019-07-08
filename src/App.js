@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import {
   HashRouter as Router,
@@ -28,9 +27,10 @@ const Favourable = Loadable({
 })
 
 const Search = Loadable({
-  loader: () => import('./views/search'),
-  //加载中的提示组件
-  loading: () => <div>加载中...</div>
+    loader: () =>
+        import ('./views/search'),
+    //加载中的提示组件
+    loading: () => < div > 加载中... < /div>
 })
 
 export default class App extends Component {
