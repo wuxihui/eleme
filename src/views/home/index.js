@@ -1,40 +1,42 @@
 import React, { Component } from 'react'
-import { 
-  HomeWrap, 
-  HeaderWrap,
-  TheaderWrap,
-  RheaderWrap,
-  BheaderWrap,
-  MyInput,
-  HomeFooterWrap,
+import {HomeWrap,HomeFooterWrap,
   LeftFooterWrap,
   PleftFooterWrap,
   CenterFooterWrap,
-  RightFooterWrap 
-  
-} from './style'
-import { NavLink } from 'react-router-dom'
+  RightFooterWrap,} from './myhome/style'
+import {Route, Switch,Redirect,NavLink } from 'react-router-dom'
+import Loadable from 'react-loadable'
+const Myhome = Loadable({
+  loader: () => import('./myhome'),
+  loading: () => <div>加载中...</div>
 
+})
+const Fanxian = Loadable({
+  loader: () => import('./fanxian'),
+  loading: () => <div>加载中...</div>
+
+})
+const Order = Loadable({
+  loader: () => import('./order'),
+  loading: () => <div>加载中...</div>
+})
+const Center = Loadable({
+  loader: () => import('./center'),
+  loading: () => <div>加载中...</div>
+})
 
 
 export default class Home extends Component {
   render() {
     return (
       <HomeWrap>
-        <HeaderWrap>
-          <TheaderWrap>
-            <i className="iconfont icon-weizhi"></i>
-            <RheaderWrap>
-              福中三路深圳市名
-            </RheaderWrap>
-          </TheaderWrap>
-          <BheaderWrap>
-              <i className="iconfont icon-fdj"></i>
-            <MyInput>
-              搜索饿了么商家、商品名称
-            </MyInput>
-          </BheaderWrap>
-        </HeaderWrap>
+          <Switch>
+            <Route path='/myhome' component={Myhome}></Route>
+            <Route path='/fanxian' component={Fanxian}></Route>
+            <Route path='/order' component={Order}></Route>
+            <Route path='/center' component={Center}></Route>
+            <Redirect to='/myhome'/>
+          </Switch>
         <HomeFooterWrap>
           <LeftFooterWrap>
             <NavLink to="/home">
@@ -43,25 +45,50 @@ export default class Home extends Component {
             </NavLink>
           </LeftFooterWrap>
           <PleftFooterWrap>
-            <NavLink to="/Find">
+            <NavLink to="/fanxian">
               <i className="iconfont icon-fx"></i>
               发现
             </NavLink>
           </PleftFooterWrap>
           <CenterFooterWrap>
-            <NavLink to="/Dingdan">
+            <NavLink to="/order">
               <i className="iconfont icon-dd"></i>
               订单
             </NavLink>
           </CenterFooterWrap>
           <RightFooterWrap>
-            <NavLink to="/Wode">
+            <NavLink to="/center">
               <i className="iconfont icon-wd"></i>
               我的
             </NavLink>
           </RightFooterWrap>
         </HomeFooterWrap>
       </HomeWrap>
+
     )
   }
 }
+
+// import { Tabs } from 'antd';
+
+// const { TabPane } = Tabs;
+
+// function callback(key) {
+//   console.log(key);
+// }
+
+// ReactDOM.render(
+//   <Tabs defaultActiveKey="1" onChange={callback}>
+//     <TabPane tab="Tab 1" key="1">
+//       Content of Tab Pane 1
+//     </TabPane>
+//     <TabPane tab="Tab 2" key="2">
+//       Content of Tab Pane 2
+//     </TabPane>
+//     <TabPane tab="Tab 3" key="3">
+//       Content of Tab Pane 3
+//     </TabPane>
+//   </Tabs>,
+//   mountNode,
+// );
+
